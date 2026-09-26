@@ -79,6 +79,6 @@ Sempozyum Dicle Üniversitesi kampüsündeki Kültür Kongre merkezinde gerçekl
   
 23.04.2010 akşamı saat 19:00 dolaylarında sempozyum bitti ve dışarı çıktığımızda şu renk bir gökyüzü vardı;   
 
-![](/images/DSC_0340.JPG)   
-  
+![](./images/DSC_0340.JPG)   
+
 SIU2010 vesilesiyle Diyarbakır dolaylarını da görmüş ve bir nebze olsun tanımış oldum mutluyum ...
