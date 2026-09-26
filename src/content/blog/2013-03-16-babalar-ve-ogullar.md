@@ -2,6 +2,7 @@
 title: "Babalar ve Oğullar"
 description: "Babalar ve Oğullar blog yazısı"
 pubDate: 2013-03-16
+heroImage: "./images/Baba-resized.jpg"
 ---
 
 <div style="text-align: justify;">
@@ -37,7 +38,7 @@ pubDate: 2013-03-16
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeHycYckfA270i939PlL9R4pdtxQEFlJvV8DVpXyfmlzX287clj-K-hmIt5nI1_yrDfGuU27PxFBQSS-p-YRxZ1eQQn16hsdXPjbs7subg5vRrTBjokKFw5G4fvXPgByfR-k9h85T96kS9/s1600/BabaAnne.bmp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><br class="Apple-interchange-newline" /><img border="0" src="./images/BabaAnne.bmp.jpg" height="196" width="400" /></a></div>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeHycYckfA270i939PlL9R4pdtxQEFlJvV8DVpXyfmlzX287clj-K-hmIt5nI1_yrDfGuU27PxFBQSS-p-YRxZ1eQQn16hsdXPjbs7subg5vRrTBjokKFw5G4fvXPgByfR-k9h85T96kS9/s1600/BabaAnne.bmp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><br class="Apple-interchange-newline" /><img border="0" src="./images/BabaAnne.bmp" height="196" width="400" /></a></div>
 <div style="text-align: center;">
 <span style="font-family: Courier New, Courier, monospace;">Babam - Annem ve Ben</span></div>
 <br />
@@ -50,13 +51,13 @@ pubDate: 2013-03-16
 <div style="text-align: justify;">
 <span style="font-family: 'Courier New', Courier, monospace;"><br /></span></div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEp_kYiMbSt-MkrLO8dP5vUFJe8deL04B-2BWKSWPWzpjMg0yk-R4LK4YdGDwq_EO40Bu-duLWdwDPQCVrD4cuAS4DvegzzEW0emVoPdjlsZiUfVaEWU4Uc9V2IKeTsDdYxKC7eTvgBNbL/s1600/DSC04553.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="./images/DSC04553.JPG.jpg" height="300" width="400" /></a></div>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEp_kYiMbSt-MkrLO8dP5vUFJe8deL04B-2BWKSWPWzpjMg0yk-R4LK4YdGDwq_EO40Bu-duLWdwDPQCVrD4cuAS4DvegzzEW0emVoPdjlsZiUfVaEWU4Uc9V2IKeTsDdYxKC7eTvgBNbL/s1600/DSC04553.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="./images/DSC04553.JPG" height="300" width="400" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 <span style="font-family: Courier New, Courier, monospace;">Özge'm ve Erkan'ım</span></div>
 <div class="separator" style="clear: both; text-align: center;">
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGtyatpqgEoJUdLn1EvYq_ENDw9Lpc9bXl7imhT11Td_toPvaOmlcd_2NiJ2FDnMhN43JBYeV_SfdIfxvOvg84V7OO2mJgGjkd6oEz-k8jSZh9eA4ouDT4suNBC3dE7la3pZ_liN5lmRVj/s1600/DSC04557.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="./images/DSC04557.JPG.jpg" height="300" width="400" /></a></div>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGtyatpqgEoJUdLn1EvYq_ENDw9Lpc9bXl7imhT11Td_toPvaOmlcd_2NiJ2FDnMhN43JBYeV_SfdIfxvOvg84V7OO2mJgGjkd6oEz-k8jSZh9eA4ouDT4suNBC3dE7la3pZ_liN5lmRVj/s1600/DSC04557.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="./images/DSC04557.JPG" height="300" width="400" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 <span style="font-family: Courier New, Courier, monospace;">Biz</span></div>
 <div style="text-align: justify;">
