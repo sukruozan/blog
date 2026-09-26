@@ -2,7 +2,7 @@
 title: "Babalar ve Oğullar"
 description: "Babalar ve Oğullar blog yazısı"
 pubDate: 2013-03-16
-heroImage: "/images/Baba-resized.jpg"
+heroImage: "./images/Baba-resized.jpg"
 ---
 
 Adam "babalar ve oğullar" kitabını yazmamış olsa ya da diğer adam "babam ve oğlum" filmini çekmemiş olsa yazımın başlığı epey iyi ve artistik olacaktı ama duruma en uygun başlık yine bu...  
@@ -39,16 +39,11 @@ Abdullah Ozan 1986 senesinin Aralık ayında kahrolası bir trafik kazasında ik
   
 
 
-![](/images/Baba-resized.jpg) 
-
-Babam
+![Babam](/images/Baba-resized.jpg) 
 
   
-  
-
-
-[  
-![](/images/BabaAnne.bmp)  Babam - Annem ve Ben   
+    
+![](/images/BabaAnne.bmp) Babam - Annem ve Ben   
   
   
 Örneğin 18 yaşındayken bunu bu kadar kafama takmıyordum. Daha gençtim önümde yaşanacak uzun seneler vardı, hayat sonsuz gibiydi. Ancak bugün 34 yaşındayım, halen yapmak istediğim bir sürü şeyim, kafamda bir sürü hayallerim var. Güzel bir eşim, ve onunla birlikte görmek istediklerim, yapmak istediklerim var. En önemlisi benim artık bir oğlum, Erkan var ve onun büyümesini, "adam" oluşunu görme isteğim var.    
