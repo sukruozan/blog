@@ -39,7 +39,7 @@ Abdullah Ozan 1986 senesinin Aralık ayında kahrolası bir trafik kazasında ik
   
 
 
-![Babam](/images/Baba-resized.jpg) 
+![Babam](./images/Baba-resized.jpg) 
 
   
     
