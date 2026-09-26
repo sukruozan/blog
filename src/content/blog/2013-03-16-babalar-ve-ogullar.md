@@ -2,7 +2,7 @@
 title: "Babalar ve Oğullar"
 description: "Babalar ve Oğullar blog yazısı"
 pubDate: 2013-03-16
-heroImage: "/images/BabaAnne.bmp"
+heroImage: "./images/BabaAnne.bmp"
 ---
 
 Adam "babalar ve oğullar" kitabını yazmamış olsa ya da diğer adam "babam ve oğlum" filmini çekmemiş olsa yazımın başlığı epey iyi ve artistik olacaktı ama duruma en uygun başlık yine bu...  
@@ -39,7 +39,7 @@ Abdullah Ozan 1986 senesinin Aralık ayında kahrolası bir trafik kazasında ik
   
 
 
-[![](/images/Baba-resized.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW6nreBDz5liMc2XAfjnZnJAD_R1k0HC7T3GY1ObaJoVE9hCou0Gm8Vv6rPx89BxXNiIKI08rfMKoN7MxJ8ksoaTGnnLmb5Av0ay7yYcGgA8GAikQUTrCHoa6Zd8aFgHN1ZWp_7LF54Ybz/s1600/Baba-resized.jpg)
+[![](./images/Baba-resized.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW6nreBDz5liMc2XAfjnZnJAD_R1k0HC7T3GY1ObaJoVE9hCou0Gm8Vv6rPx89BxXNiIKI08rfMKoN7MxJ8ksoaTGnnLmb5Av0ay7yYcGgA8GAikQUTrCHoa6Zd8aFgHN1ZWp_7LF54Ybz/s1600/Baba-resized.jpg)
 
 Babam
 
