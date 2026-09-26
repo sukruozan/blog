@@ -52,6 +52,31 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.post-figure {
+				margin: 2.5em auto;
+				padding: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+				max-width: 100%;
+			}
+			.post-figure img {
+				max-width: 100%;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+				border-radius: 8px;
+				box-shadow: 0 4px 14px rgba(var(--black), 0.1);
+			}
+			.post-figcaption {
+				margin-top: 0.75em;
+				font-size: 0.9em;
+				color: rgb(var(--gray));
+				font-style: italic;
+				text-align: center;
+				line-height: 1.4;
+			}
 		</style>
 	</head>
 
@@ -82,5 +107,83 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			</article>
 		</main>
 		<Footer />
+
+		<script is:inline>
+			function setupImageCaptions() {
+				const prose = document.querySelector('.prose');
+				if (!prose) return;
+
+				const paragraphs = prose.querySelectorAll('p');
+				paragraphs.forEach((p) => {
+					const imgs = Array.from(p.querySelectorAll('img'));
+					if (imgs.length === 0) return;
+
+					// Check if paragraph contains only images, brs, and whitespace
+					const clone = p.cloneNode(true);
+					clone.querySelectorAll('img, br').forEach((el) => el.remove());
+					const remainingText = clone.textContent ? clone.textContent.trim() : '';
+
+					if (remainingText === '') {
+						// Pure image paragraph: replace with individual figures
+						imgs.forEach((img) => {
+							const alt = img.getAttribute('alt');
+							const figure = document.createElement('figure');
+							figure.className = 'post-figure';
+							figure.appendChild(img);
+
+							if (alt && alt.trim()) {
+								const figcaption = document.createElement('figcaption');
+								figcaption.className = 'post-figcaption';
+								figcaption.textContent = alt.trim();
+								figure.appendChild(figcaption);
+							}
+
+							p.parentNode?.insertBefore(figure, p);
+						});
+						p.remove();
+					} else {
+						// Mixed paragraph: wrap images inline
+						imgs.forEach((img) => {
+							if (img.closest('figure')) return;
+							const alt = img.getAttribute('alt');
+							const figure = document.createElement('figure');
+							figure.className = 'post-figure';
+							img.parentNode?.insertBefore(figure, img);
+							figure.appendChild(img);
+
+							if (alt && alt.trim()) {
+								const figcaption = document.createElement('figcaption');
+								figcaption.className = 'post-figcaption';
+								figcaption.textContent = alt.trim();
+								figure.appendChild(figcaption);
+							}
+						});
+					}
+				});
+
+				// Handle any stray images in prose not inside a figure
+				prose.querySelectorAll('img').forEach((img) => {
+					if (img.closest('figure') || img.closest('.hero-image')) return;
+					const alt = img.getAttribute('alt');
+					const figure = document.createElement('figure');
+					figure.className = 'post-figure';
+					img.parentNode?.insertBefore(figure, img);
+					figure.appendChild(img);
+
+					if (alt && alt.trim()) {
+						const figcaption = document.createElement('figcaption');
+						figcaption.className = 'post-figcaption';
+						figcaption.textContent = alt.trim();
+						figure.appendChild(figcaption);
+					}
+				});
+			}
+
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', setupImageCaptions);
+			} else {
+				setupImageCaptions();
+			}
+		</script>
 	</body>
 </html>
