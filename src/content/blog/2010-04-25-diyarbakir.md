@@ -70,7 +70,6 @@ Doğu ve güneydoğu Anadolu kültüründe önemli bir yeri olan dengbejlerin to
 Sempozyum Dicle Üniversitesi kampüsündeki Kültür Kongre merkezinde gerçekleştirildi. Çok büyük ve güzel bir kongre merkezi yapılmış üniversiteye. Özellikle A salonunun büyüklüğü beni gerçekten çok şaşırttı.   
 
 ![](./images/DSC_0243.JPG)    
-  
 ![](./images/DSC_0234.JPG)    
 
 Üniversiteden mezun olduğumdan beri  görmediğim benimle ODTÜ Elektrik-Elektronik'te aynı dönemden olan arkadaşlarla tekrar karşılaşmak da çok iyi oldu.   
