@@ -2,7 +2,7 @@
 title: "Sıradan Vatandaşın Türkiye İncelemesi"
 description: "Sıradan Vatandaşın Türkiye İncelemesi blog yazısı"
 pubDate: 2012-09-25
-heroImage: "/images/AB.png"
+heroImage: "./images/AB.png"
 ---
 
   
@@ -17,7 +17,7 @@ Bir tarihçi olmadığım için kronolojiye ya da kronolojik sırayla anlatmaya 
 Büyük kurtuluş savaşımız ve Cumhuriyet'in kuruluş yıllarına dönelim. Dönemin en önemli kişisi olan Mustafa Kemal ve onunla birlikte çalışan arkadaşları yeni bir yönetim biçimi ve yepyeni bir ülke inşa etmeye çalışmışlar. Dönemin "toplum mühendisleri" olmuşlar. Hedeflerinin "bir ülkeyi A noktasından B noktasına getirmek" olduğunu düşünürsek, bu hedefi gerçekleştirmenin en verimli ve hızlı yollarını düşünmüşler ve "iki nokta arasındaki en kısa mesafe bir doğru parçasıdır" mantığıyla ilerlemeye çalışıp kendilerine çok zor hedefler koyarak B noktasının yakınlarında bir B' noktasına kadar gelmeyi başarmışlar.  
   
   
-![](/images/AB.png)    
+![](./images/AB.png)    
   
 Birçok doğru ve güzel iş yapılmış. Ancak bunların yapılması esnasında önemli bir toplumsal karşı mukavemetle karşılaşılmış. Örneğin yapılan önemli değişikliklerden birisi olan alfabe devrimini düşünelim. Bu konuda kendi çapımda benim de çalışmalarım ve gözlemlerim var.   
 Alfabe devriminden önce hepimizin bildiği gibi "Osmanlı Elifbası" kullanılmaktaydı. Bu alfabe Arapça ve Farsça alfabelerinin bir sentezidir. İkisini de içerir. Ancak dilin temelinde Türkçe olması, bu alfabelerin orjinal kullanımlarının dışında bir kullanım şekli ile tamamen yeni bir yaklaşımla kullanılmalarını gerektirir. Örneğin Arap dilinde yazıda sesli harfler kullanılmazken Türkçe bir kelimenin yazımında sesli harfler kullanılmaktadır. İşte benim gözlemlediğim en kilit zorluk bu. Osmanlıca olarak bilinen dil çok sayıda Arapça ve Farsça kelimeyi içermektedir (Bugün bile birçok Arapça ve Farsça kelime zaten dilimizde var). Bu kelimelerin Osmanlı alfabesiyle doğru yazılması, bu yabancı kelimelerin esas yazılışlarının doğru şekilde bilinmesiyle mümkün olmaktadır. Yani bu kelimelerin Osmanlı Elifbası kullanılsa dahi okunduğu gibi yazılmaları yanlış olmaktadır.   
