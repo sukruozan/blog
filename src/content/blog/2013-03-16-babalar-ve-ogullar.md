@@ -2,7 +2,7 @@
 title: "Babalar ve Oğullar"
 description: "Babalar ve Oğullar blog yazısı"
 pubDate: 2013-03-16
-heroImage: "./images/Baba-resized.jpg"
+heroImage: "./images/Baba-resized.DZzEPVdt_1Ddjso.webp"
 ---
 
 <div style="text-align: justify;">
@@ -32,7 +32,7 @@ heroImage: "./images/Baba-resized.jpg"
 <br /></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW6nreBDz5liMc2XAfjnZnJAD_R1k0HC7T3GY1ObaJoVE9hCou0Gm8Vv6rPx89BxXNiIKI08rfMKoN7MxJ8ksoaTGnnLmb5Av0ay7yYcGgA8GAikQUTrCHoa6Zd8aFgHN1ZWp_7LF54Ybz/s1600/Baba-resized.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="./images/Baba-resized.jpg" height="206" width="320" /></a></div>
+<a href="./images/Baba-resized.DZzEPVdt_1Ddjso.webp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="./images/Baba-resized.DZzEPVdt_1Ddjso.webp" height="206" width="320" /></a></div>
 <div style="text-align: center;">
 <span style="font-family: Courier New, Courier, monospace;">Babam</span></div>
 <br />
