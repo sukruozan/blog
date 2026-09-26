@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.3",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseenter","mouseout","mouseleave","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input","visibilitychange"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),this.F("domReady"),await this.T(),await this.j(),await this.I(),this.F("windowLoad"),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise((t=>setTimeout(t,500-Date.now()+this.lastTouchEnd))),this.H(),this.F("all"),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))}),{isRocket:!0})}o(){window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0}),{isRocket:!0}),window.addEventListener("pagehide",(()=>{this.onFirstUserAction=null}),{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",(function i(o){Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1})),event.preventDefault(),window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}))}),{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),this.savedUserEvents.length>0&&(t.stopPropagation(),t.stopImmediatePropagation()),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach((t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})))}U(){this.userEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0}))),this.savedUserEvents.forEach((t=>{t.target.dispatchEvent(new window[t.constructor.name](t.type,t))}))}m(){this.eventsMutationObserver=new MutationObserver((t=>{const e="return false";for(const i of t){if("attributes"===i.type){const t=i.target.getAttribute(i.attributeName);t&&t!==e&&(i.target.setAttribute("data-rocket-"+i.attributeName,t),i.target["rocket"+i.attributeName]=new Function("event",t),i.target.setAttribute(i.attributeName,e))}"childList"===i.type&&i.addedNodes.forEach((t=>{if(t.nodeType===Node.ELEMENT_NODE)for(const i of t.attributes)this.attributeEvents.includes(i.name)&&i.value&&""!==i.value&&(t.setAttribute("data-rocket-"+i.name,i.value),t["rocket"+i.name]=new Function("event",i.value),t.setAttribute(i.name,e))}))}})),this.eventsMutationObserver.observe(document,{subtree:!0,childList:!0,attributeFilter:this.attributeEvents})}H(){this.eventsMutationObserver.disconnect(),this.attributeEvents.forEach((t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach((e=>{e.setAttribute(t,e.getAttribute("data-rocket-"+t)),e.removeAttribute("data-rocket-"+t)}))}))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o})},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}F(t){"all"===t&&(EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener),this.savedEventListeners=this.savedEventListeners.filter((e=>{let i=e.type,o=e.target||window;return"domReady"===t&&"DOMContentLoaded"!==i&&"readystatechange"!==i||("windowLoad"===t&&"load"!==i&&"readystatechange"!==i&&"pageshow"!==i||(this.B(i,o)&&(i="rocket-"+i),e.remove?o.removeEventListener(i,e.func,e.options):o.addEventListener(i,e.func,e.options),!1))}))}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,(()=>{e[t].forEach((t=>t()))}),{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout((()=>i.bind(document)(o))):i.bind(document)(o)}return t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s),o([])},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise((t=>{this.userActionTriggered?t():this.onFirstUserAction=t}))}async L(){return new Promise((t=>{document.addEventListener("DOMContentLoaded",(()=>{this.realDomReadyFired=!0,t()}),{isRocket:!0})}))}async I(){return this.realWindowLoadedFired?Promise.resolve():new Promise((t=>{window.addEventListener("load",t,{isRocket:!0})}))}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver((t=>{for(const e of t)e.addedNodes.forEach((t=>{"SCRIPT"!==t.tagName||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise((e=>{const i=()=>{const i=this.pendingScripts.findIndex((e=>e.script===t));i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)}))})}))})),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async j(){await this.J(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.j()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.N(t,"preconnect")}async $(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",(()=>{i.setAttribute("data-rocket-status","failed-network"),e()}),{isRocket:!0}),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.$(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())}),{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.$(e),this.C(t)):Promise.resolve()}O(){this.N([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}N(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach((t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}})),document.head.appendChild(o)}W(){this.trash.forEach((t=>t.remove()))}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async G(){Date.now()-this.lastBreath>45&&(await this.J(),this.lastBreath=Date.now())}async J(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}B(t,e){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();</script>
+	
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://liberiangeek.net/xmlrpc.php" />
+
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+			window.flatStyles = window.flatStyles || ''
+
+			window.lightspeedOptimizeStylesheet = function () {
+				const currentStylesheet = document.querySelector( '.tcb-lightspeed-style:not([data-ls-optimized])' )
+
+				if ( currentStylesheet ) {
+					try {
+						if ( currentStylesheet.sheet && currentStylesheet.sheet.cssRules ) {
+							if ( window.flatStyles ) {
+								if ( this.optimizing ) {
+									setTimeout( window.lightspeedOptimizeStylesheet.bind( this ), 24 )
+								} else {
+									this.optimizing = true;
+
+									let rulesIndex = 0;
+
+									while ( rulesIndex < currentStylesheet.sheet.cssRules.length ) {
+										const rule = currentStylesheet.sheet.cssRules[ rulesIndex ]
+										/* remove rules that already exist in the page */
+										if ( rule.type === CSSRule.STYLE_RULE && window.flatStyles.includes( `${rule.selectorText}{` ) ) {
+											currentStylesheet.sheet.deleteRule( rulesIndex )
+										} else {
+											rulesIndex ++
+										}
+									}
+									/* optimize, mark it such, move to the next file, append the styles we have until now */
+									currentStylesheet.setAttribute( 'data-ls-optimized', '1' )
+
+									window.flatStyles += currentStylesheet.innerHTML
+
+									this.optimizing = false
+								}
+							} else {
+								window.flatStyles = currentStylesheet.innerHTML
+								currentStylesheet.setAttribute( 'data-ls-optimized', '1' )
+							}
+						}
+					} catch ( error ) {
+						console.warn( error )
+					}
+
+					if ( currentStylesheet.parentElement.tagName !== 'HEAD' ) {
+						/* always make sure that those styles end up in the head */
+						const stylesheetID = currentStylesheet.id;
+						/**
+						 * make sure that there is only one copy of the css
+						 * e.g display CSS
+						 */
+						if ( ( ! stylesheetID || ( stylesheetID && ! document.querySelector( `head #${stylesheetID}` ) ) ) ) {
+							document.head.prepend( currentStylesheet )
+						} else {
+							currentStylesheet.remove();
+						}
+					}
+				}
+			}
+
+			window.lightspeedOptimizeFlat = function ( styleSheetElement ) {
+				if ( document.querySelectorAll( 'link[href*="thrive_flat.css"]' ).length > 1 ) {
+					/* disable this flat if we already have one */
+					styleSheetElement.setAttribute( 'disabled', true )
+				} else {
+					/* if this is the first one, make sure he's in head */
+					if ( styleSheetElement.parentElement.tagName !== 'HEAD' ) {
+						document.head.append( styleSheetElement )
+					}
+				}
+			}
+		</script>
+		<link rel="canonical" href="https://liberiangeek.net/">
+<meta name="description" content="Liberian Geek publishes practical, tested Windows, Linux, Ubuntu, WordPress, web, and security tutorials for everyday users and administrators.">
+<meta property="og:title" content="Practical Windows, Linux, Ubuntu &amp; WordPress Tutorials | Liberian Geek">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Liberian Geek publishes practical, tested Windows, Linux, Ubuntu, WordPress, web, and security tutorials for everyday users and administrators.">
+<meta property="og:url" content="https://liberiangeek.net/">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Liberian Geek">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>Practical Windows, Linux, Ubuntu &amp; WordPress Tutorials | Liberian Geek</title><link rel="preload" data-rocket-preload as="image" href="https://liberiangeek.net/wp-content/uploads/2025/09/LiberianGeek-favicon.png" fetchpriority="high"><link rel="stylesheet" href="https://liberiangeek.net/wp-content/cache/fonts/1/google-fonts/css/e/b/c/9d3dae1908afaa80f8e357958aa61.css" data-wpr-hosted-gf-parameters="family=Open%20Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800&subset=latin%2Clatin-ext&display=swap"/>
+<meta name="description" content="Liberian Geek publishes practical, tested Windows, Linux, Ubuntu, WordPress, web, and security tutorials for everyday users and administrators."/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://liberiangeek.net/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Practical Windows, Linux, Ubuntu &amp; WordPress Tutorials | Liberian Geek" />
+<meta property="og:description" content="Liberian Geek publishes practical, tested Windows, Linux, Ubuntu, WordPress, web, and security tutorials for everyday users and administrators." />
+<meta property="og:url" content="https://liberiangeek.net/" />
+<meta property="og:updated_time" content="2026-09-16T13:19:52-05:00" />
+<meta property="article:published_time" content="2026-07-14T04:00:44-05:00" />
+<meta property="article:modified_time" content="2026-09-16T13:19:52-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Practical Windows, Linux, Ubuntu &amp; WordPress Tutorials | Liberian Geek" />
+<meta name="twitter:description" content="Liberian Geek publishes practical, tested Windows, Linux, Ubuntu, WordPress, web, and security tutorials for everyday users and administrators." />
+<meta name="twitter:site" content="@liberiangeek" />
+<meta name="twitter:creator" content="@liberiangeek" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Talha" />
+<meta name="twitter:label2" content="Time to read" />
+<meta name="twitter:data2" content="6 minutes" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://liberiangeek.net/#organization","name":"Liberian Geek","sameAs":["https://www.facebook.com/liberiangeekfanpage","https://twitter.com/liberiangeek"]},{"@type":"WebSite","@id":"https://liberiangeek.net/#website","url":"https://liberiangeek.net","publisher":{"@id":"https://liberiangeek.net/#organization"},"inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":"https://liberiangeek.net/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://liberiangeek.net/#webpage","url":"https://liberiangeek.net/","name":"Practical Windows, Linux, Ubuntu &amp; WordPress Tutorials | Liberian Geek","datePublished":"2026-07-14T04:00:44-05:00","dateModified":"2026-09-16T13:19:52-05:00","about":{"@id":"https://liberiangeek.net/#organization"},"isPartOf":{"@id":"https://liberiangeek.net/#website"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://liberiangeek.net/#author","name":"Talha","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/85010db721ad37b2ad7bf23e6aa6110873693a39c0a66dd93074c3de92c63fe7?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/85010db721ad37b2ad7bf23e6aa6110873693a39c0a66dd93074c3de92c63fe7?s=96&amp;d=mm&amp;r=g","caption":"Talha","inLanguage":"en-US"},"worksFor":{"@id":"https://liberiangeek.net/#organization"}},{"@type":"Article","headline":"Practical Windows, Linux, Ubuntu &amp; WordPress Tutorials | Liberian Geek","keywords":"Liberian Geek,Liberiangeek","datePublished":"2026-07-14T04:00:44-05:00","dateModified":"2026-09-16T13:19:52-05:00","author":{"@id":"https://liberiangeek.net/#author","name":"Talha"},"publisher":{"@id":"https://liberiangeek.net/#organization"},"description":"Liberian Geek publishes practical, tested Windows, Linux, Ubuntu, WordPress, web, and security tutorials for everyday users and administrators.","name":"Practical Windows, Linux, Ubuntu &amp; WordPress Tutorials | Liberian Geek","@id":"https://liberiangeek.net/#richSnippet","isPartOf":{"@id":"https://liberiangeek.net/#webpage"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://liberiangeek.net/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Liberian Geek &raquo; Feed" href="https://liberiangeek.net/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://liberiangeek.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fliberiangeek.net%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://liberiangeek.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fliberiangeek.net%2F&#038;format=xml" />
+<meta content="Divi v.4.27.4" name="generator"/><style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+
+<link data-minify="1" rel='stylesheet' id='simple-social-icons-font-css' href='https://liberiangeek.net/wp-content/cache/min/1/wp-content/plugins/simple-social-icons/css/style.css?ver=1783533271' media='all' />
+<link data-minify="1" rel='stylesheet' id='divi-style-css' href='https://liberiangeek.net/wp-content/cache/min/1/wp-content/themes/Divi/style-static.min.css?ver=1783533271' media='all' />
+<script type="rocketlazyloadscript" id="jquery-core-js" data-rocket-src="https://liberiangeek.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="jquery-migrate-js" data-rocket-src="https://liberiangeek.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="https://liberiangeek.net/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://liberiangeek.net/wp-json/wp/v2/pages/44084" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://liberiangeek.net/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<link rel='shortlink' href='https://liberiangeek.net/' />
+<script type="rocketlazyloadscript" data-grow-initializer="">!(function(){window.growMe||((window.growMe=function(e){window.growMe._.push(e);}),(window.growMe._=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","U2l0ZTo5NDg1ZDJkMS1hNGYzLTQ1ODMtODE2Yy0wOTE4MTQwN2Y5YjY=");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1341556297708513"
+     crossorigin="anonymous"></script>
+<meta name="google-adsense-account" content="ca-pub-1341556297708513">
+<!-- Google tag (gtag.js) -->
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-M0QDHCPPM4"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M0QDHCPPM4');
+</script><style type="text/css" id="tve_global_variables">:root{--tcb-color-0:rgb(51, 51, 51);--tcb-color-0-h:0;--tcb-color-0-s:0%;--tcb-color-0-l:20%;--tcb-color-0-a:1;--tcb-color-1:rgb(255, 101, 0);--tcb-color-1-h:23;--tcb-color-1-s:100%;--tcb-color-1-l:50%;--tcb-color-1-a:1;--tcb-background-author-image:url(https://secure.gravatar.com/avatar/85010db721ad37b2ad7bf23e6aa6110873693a39c0a66dd93074c3de92c63fe7?s=256&d=mm&r=g);--tcb-background-user-image:url();--tcb-background-featured-image-thumbnail:url(https://liberiangeek.net/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png);}</style><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type="text/css" id="thrive-default-styles"></style><link rel="icon" href="https://liberiangeek.net/wp-content/uploads/2025/09/LiberianGeek-favicon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://liberiangeek.net/wp-content/uploads/2025/09/LiberianGeek-favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://liberiangeek.net/wp-content/uploads/2025/09/LiberianGeek-favicon.png" />
+<meta name="msapplication-TileImage" content="https://liberiangeek.net/wp-content/uploads/2025/09/LiberianGeek-favicon.png" />
+<link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="https://liberiangeek.net/wp-content/et-cache/global/et-divi-customizer-global.min.css?ver=1784019724" /><style id="et-critical-inline-css"></style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><meta name="generator" content="WP Rocket 3.18.3" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_lazyload_images wpr_automatic_lazy_rendering wpr_oci wpr_minify_css wpr_preload_links wpr_host_fonts_locally wpr_desktop" /></head>
+<body class="home wp-singular page-template-default page page-id-44084 wp-theme-Divi et_pb_button_helper_class et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter et_pb_gutters3 et_full_width_page et_divi_theme et-db">
+	<div  id="page-container">
+
+	
+	
+			<header  id="main-header" data-height-onload="66">
+			<div  class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://liberiangeek.net/">
+						<img fetchpriority="high" src="https://liberiangeek.net/wp-content/uploads/2025/09/LiberianGeek-favicon.png" width="200" height="200" alt="Liberian Geek" id="logo" data-height-percentage="54" />
+					</a>
+				</div>
+							<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-29055" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29055"><a href="https://liberiangeek.net/category/how-to-and-tips/">How-To/Tips</a></li>
+<li id="menu-item-29056" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29056"><a href="https://liberiangeek.net/category/linux/">Linux</a></li>
+<li id="menu-item-29057" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29057"><a href="https://liberiangeek.net/category/windows/">Windows</a></li>
+<li id="menu-item-29280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29280"><a href="https://liberiangeek.net/tag/ubuntu/" title="Ubuntu Tutorials">Ubuntu</a></li>
+<li id="menu-item-29430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29430"><a href="https://liberiangeek.net/category/wordpress/" title="Wordpress Tutorials">WordPress</a></li>
+<li id="menu-item-35162" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-35162"><a href="https://liberiangeek.net/category/internet/">Internet</a></li>
+</ul>						</nav>
+					
+					
+					
+											<div id="et_top_search">
+							<span id="et_search_icon"></span>
+						</div>
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+						<div  class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://liberiangeek.net/">
+					<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+					</header> <!-- #main-header -->
+			<div  id="et-main-area">
+	
+<div  id="main-content">
+
+
+	<div class="container">
+		<div id="content-area" class="clearfix">
+			<div id="left-area">
+
+
+			
+				<article id="post-44084" class="post-44084 page type-page status-publish hentry">
+
+				
+					<h1 class="entry-title main_title">Practical Windows, Linux, Ubuntu &#038; WordPress Tutorials</h1>
+				
+				
+					<div class="entry-content">
+					
+<style data-wp-block-html="css">
+
+/* Homepage polish: hide duplicate theme title and remove top whitespace */
+body.home article#post-44084 > .entry-title.main_title,
+body.page-id-44084 article#post-44084 > .entry-title.main_title{display:none!important}
+body.home #left-area,
+body.page-id-44084 #left-area{padding-bottom:0!important}
+body.home article#post-44084 .entry-content,
+body.page-id-44084 article#post-44084 .entry-content{padding-top:0!important}
+body.home #content-area,
+body.page-id-44084 #content-area{padding-top:24px!important}
+.lg2-home{margin-top:0!important}
+.lg2-home section:first-of-type{margin-top:0!important}
+@media(max-width:767px){body.home #content-area,body.page-id-44084 #content-area{padding-top:14px!important}.lg2-hero{padding:34px 22px}.lg2-hero h1{font-size:30px}}
+
+.lg2-home{--ink:#222;--head:#333;--muted:#6b7280;--line:#e6e6e6;--soft:#f7f7f7;--dark:#222;--accent:#2ea3f2;--accent-d:#1c7fc4;--r:6px;font-family:inherit;color:var(--ink);line-height:1.7;font-size:16px}
+.lg2-home *{box-sizing:border-box}
+.lg2-home a{text-decoration:none;color:#ff6a09}
+.lg2-home svg{display:block}
+.lg2-home .lg2-wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.lg2-home section{margin:46px 0}
+.lg2-home h2{color:var(--head);font-weight:600;font-size:26px;line-height:1.3;margin:0 0 8px}
+.lg2-home h3{color:var(--head);font-weight:600}
+.lg2-home p{margin:0 0 14px}
+.lg2-home .lg2-eyebrow{display:block;font-size:12px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-bottom:8px}
+
+/* Hero */
+.lg2-hero{background:linear-gradient(120deg,#1c1c1c 0%,#2b2b2b 60%,#333 100%);color:#fff;border-radius:var(--r);padding:52px 40px;position:relative;overflow:hidden}
+.lg2-hero .lg2-eyebrow{color:#b9b9b9}
+.lg2-hero h1{color:#fff;font-weight:600;font-size:38px;line-height:1.18;margin:0 0 16px;max-width:780px}
+.lg2-hero p{color:#d6d6d6;font-size:18px;max-width:660px;margin:0 0 24px}
+.lg2-hero .lg2-cta{display:flex;gap:12px;flex-wrap:wrap}
+.lg2-btn{display:inline-block;padding:12px 22px;border-radius:var(--r);font-weight:600;font-size:15px;transition:background .15s,color .15s,transform .15s}
+.lg2-btn:hover{transform:translateY(-1px)}
+.lg2-btn-light{background:#fff;color:#222}
+.lg2-btn-light:hover{background:#f0f0f0}
+.lg2-btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.5)}
+.lg2-btn-outline:hover{background:rgba(255,255,255,.1)}
+.lg2-btn-dark{background:var(--dark);color:#fff}
+.lg2-btn-dark:hover{background:#000}
+.lg2-hero .lg2-stats{display:flex;gap:34px;flex-wrap:wrap;margin-top:32px}
+.lg2-hero .lg2-stats div span{display:block;font-size:24px;font-weight:700}
+.lg2-hero .lg2-stats div small{color:#b9b9b9;font-size:13px}
+
+/* Intro */
+.lg2-intro p{font-size:17px;color:#3a3a3a}
+.lg2-chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.lg2-chips a{border:1px solid var(--line);background:#fff;padding:8px 15px;border-radius:999px;font-size:14px;font-weight:600;color:var(--head);transition:border-color .15s,color .15s}
+.lg2-chips a:hover{border-color:var(--accent);color:var(--accent)}
+
+/* Section header with icon */
+.lg2-sechead{display:flex;align-items:flex-start;gap:16px;margin-bottom:22px;flex-wrap:wrap}
+.lg2-ic{flex:none;width:44px;height:44px;border-radius:var(--r);background:var(--soft);border:1px solid var(--line);display:flex;align-items:center;justify-content:center}
+.lg2-ic svg{width:22px;height:22px;stroke:var(--head);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.lg2-sechead .lg2-t{flex:1;min-width:240px}
+.lg2-sechead h2{margin-bottom:4px}
+.lg2-sechead p{color:var(--muted);margin:0}
+.lg2-viewall{align-self:center;font-weight:600;color:var(--head);white-space:nowrap;border-bottom:1px solid transparent;transition:color .15s,border-color .15s}
+.lg2-viewall:hover{color:var(--accent);border-color:var(--accent)}
+
+/* Cards grid */
+.lg2-grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.lg2-grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.lg2-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px;transition:border-color .15s,box-shadow .15s}
+.lg2-card:hover{border-color:#cfcfcf;box-shadow:0 6px 20px rgba(0,0,0,.05)}
+.lg2-tag{align-self:flex-start;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.lg2-card h3{font-size:16px;font-weight:600;line-height:1.4;margin:0 0 10px}
+.lg2-card h3 a:hover{color:var(--accent)}
+.lg2-card .lg2-desc{font-size:14px;color:var(--muted);margin:0 0 14px}
+.lg2-meta{margin-top:auto;font-size:13px;color:var(--muted)}
+
+/* Topic cards */
+.lg2-topic{display:block;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px;transition:border-color .15s,box-shadow .15s}
+.lg2-topic:hover{border-color:#cfcfcf;box-shadow:0 6px 20px rgba(0,0,0,.05)}
+.lg2-topic .lg2-ic{margin-bottom:12px}
+.lg2-topic h3{font-size:16px;margin:0 0 5px}
+.lg2-topic p{font-size:13.5px;color:var(--muted);margin:0 0 10px;line-height:1.55}
+.lg2-topic .lg2-count{font-size:12.5px;font-weight:700;color:var(--head)}
+
+/* Post list (deep dives) */
+.lg2-list{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.lg2-list a{display:block;padding:13px 0;border-bottom:1px solid var(--line);font-weight:500;color:var(--head);transition:color .15s}
+.lg2-list a:hover{color:var(--accent)}
+.lg2-list a .lg2-d{display:block;font-size:12.5px;color:var(--muted);font-weight:400;margin-top:3px}
+
+/* Featured series */
+.lg2-feature{background:var(--soft);border:1px solid var(--line);border-radius:var(--r);padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+.lg2-serieslist{list-style:none;margin:0;padding:0}
+.lg2-serieslist li{border-bottom:1px solid var(--line)}
+.lg2-serieslist li:last-child{border-bottom:0}
+.lg2-serieslist a{display:flex;gap:13px;align-items:center;padding:12px 0;font-weight:500;color:var(--head);transition:color .15s}
+.lg2-serieslist a:hover{color:var(--accent)}
+.lg2-serieslist .n{flex:none;width:26px;height:26px;border-radius:50%;background:#fff;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--head)}
+
+/* Authors */
+.lg2-authors{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.lg2-author{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;gap:16px;align-items:flex-start}
+.lg2-avatar{flex:none;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:700;color:#fff;background:linear-gradient(135deg,#3a3a3a,#5a5a5a)}
+.lg2-avatar svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.lg2-author h3{margin:0 0 2px;font-size:16px}
+.lg2-author .role{color:var(--muted);font-size:12.5px;font-weight:600;margin-bottom:8px}
+.lg2-author p{font-size:13.5px;color:var(--muted);margin:0 0 10px;line-height:1.55}
+.lg2-author .lg2-profile{font-size:13.5px;font-weight:600;color:var(--head)}
+.lg2-author .lg2-profile:hover{color:var(--accent)}
+
+/* FAQ */
+.lg2-faq details{border:1px solid var(--line);border-radius:var(--r);padding:0;margin-bottom:12px;background:#fff}
+.lg2-faq summary{cursor:pointer;padding:16px 20px;font-weight:600;color:var(--head);font-size:16px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:14px}
+.lg2-faq summary::-webkit-details-marker{display:none}
+.lg2-faq summary:after{content:"+";font-size:22px;font-weight:400;color:var(--muted);line-height:1}
+.lg2-faq details[open] summary:after{content:"\2212"}
+.lg2-faq details[open] summary{border-bottom:1px solid var(--line)}
+.lg2-faq .lg2-ans{padding:16px 20px;color:#444;font-size:15px}
+.lg2-faq .lg2-ans a{color:var(--accent-d);font-weight:600}
+
+/* Trust */
+.lg2-trust{background:var(--dark);color:#fff;border-radius:var(--r);padding:36px;display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:center}
+.lg2-trust h2{color:#fff}
+.lg2-trust p{color:#c4c4c4;margin:0}
+.lg2-trustlinks{display:grid;gap:10px}
+.lg2-trustlinks a{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);padding:13px 16px;border-radius:var(--r);font-weight:600;display:flex;justify-content:space-between;transition:background .15s}
+.lg2-trustlinks a:hover{background:rgba(255,255,255,.12)}
+
+/* Newsletter */
+.lg2-news{text-align:center;border:1px solid var(--line);background:var(--soft);border-radius:var(--r);padding:44px 28px}
+.lg2-news h2{margin-bottom:8px}
+.lg2-news p{max-width:560px;margin:0 auto 22px;color:var(--muted)}
+
+@media(max-width:900px){
+ .lg2-grid3,.lg2-grid4,.lg2-authors{grid-template-columns:repeat(2,1fr)}
+ .lg2-list,.lg2-feature,.lg2-trust{grid-template-columns:1fr}
+ .lg2-hero{padding:40px 24px}
+ .lg2-hero h1{font-size:30px}
+}
+@media(max-width:560px){
+ .lg2-grid3,.lg2-grid4,.lg2-authors{grid-template-columns:1fr}
+}
+
+/* Homepage polish: suppress auto ad annotations inside the curated front page */
+body.home article#post-44084 [id^="aswift_"],
+body.home article#post-44084 [id*="aswift_"],
+body.home article#post-44084 iframe[id^="aswift_"],
+body.home article#post-44084 iframe[name^="aswift_"],
+body.home article#post-44084 ins.adsbygoogle,
+body.home article#post-44084 .adsbygoogle,
+body.home article#post-44084 .google-auto-placed,
+body.home article#post-44084 [class*="google-auto-placed"],
+body.home article#post-44084 [id^="google-anno"],
+body.home article#post-44084 [class*="google-anno"],
+body.home article#post-44084 google-anno-sa,
+body.page-id-44084 article#post-44084 [id^="aswift_"],
+body.page-id-44084 article#post-44084 [id*="aswift_"],
+body.page-id-44084 article#post-44084 iframe[id^="aswift_"],
+body.page-id-44084 article#post-44084 iframe[name^="aswift_"],
+body.page-id-44084 article#post-44084 ins.adsbygoogle,
+body.page-id-44084 article#post-44084 .adsbygoogle,
+body.page-id-44084 article#post-44084 .google-auto-placed,
+body.page-id-44084 article#post-44084 [class*="google-auto-placed"],
+body.page-id-44084 article#post-44084 [id^="google-anno"],
+body.page-id-44084 article#post-44084 [class*="google-anno"],
+body.page-id-44084 article#post-44084 google-anno-sa{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important}
+body.home article#post-44084 a[href*="googleadservices.com"],
+body.home article#post-44084 a[href*="adclick"],
+body.page-id-44084 article#post-44084 a[href*="googleadservices.com"],
+body.page-id-44084 article#post-44084 a[href*="adclick"]{display:none!important}
+</style>
+
+<div class="lg2-home">
+
+<div class="lg2-wrap">
+
+<!-- HERO -->
+<section class="lg2-hero" style="margin-top:20px">
+  <span class="lg2-eyebrow">Practical tech tutorials, tested and trusted</span>
+  <h2 style="color:white; text-decoration:none!important;">Step-by-step guides for Windows, Linux, Ubuntu, WordPress &amp; the Web</h2>
+  <p>Liberian Geek turns confusing tech tasks into clear, tested walkthroughs you can actually follow; written for everyday users and administrators alike and kept up to date as software changes.</p>
+  <div class="lg2-cta">
+    <a class="lg2-btn lg2-btn-light" href="/category/how-to-and-tips/">Browse How-To Guides</a>
+    <a class="lg2-btn lg2-btn-outline" href="#topics">Explore all topics</a>
+  </div>
+  <div class="lg2-stats">
+    <div><span>9</span><small>Core topic areas</small></div>
+    <div><span>5</span><small>Expert contributors</small></div>
+    <div><span>Free</span><small>Always free to read</small></div>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="lg2-intro">
+  <span class="lg2-eyebrow">Welcome</span>
+  <h2>Your practical library for getting tech tasks done</h2>
+  <p>Whether you are setting up your first Ubuntu server, fixing something in Windows, hardening a website, or learning your way around WordPress. Liberian Geek gives you the exact steps + commands, settings, and screenshots without the fluff. Every guide is written to be followed start to finish and tested against real systems.</p>
+  <p>New here? Start with the reader favorites below, or jump straight to a topic:</p>
+  <div class="lg2-chips">
+    <a href="#linux">Linux</a>
+    <a href="#windows">Windows</a>
+    <a href="/tag/ubuntu/">Ubuntu</a>
+    <a href="#wordpress">WordPress</a>
+    <a href="#webnet">Internet &amp; Web</a>
+    <a href="#security">Security</a>
+    <a href="/category/how-to-and-tips/">How-To / Tips</a>
+  </div>
+</section>
+
+<!-- START HERE -->
+<section>
+  <div class="lg2-sechead">
+    <div class="lg2-ic"><svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></div>
+    <div class="lg2-t">
+      <span class="lg2-eyebrow">Start here</span>
+      <h2>Reader favorites</h2>
+      <p>Popular, broadly useful guides that answer questions almost everyone runs into.</p>
+    </div>
+  </div>
+  <div class="lg2-grid3">
+    <article class="lg2-card"><span class="lg2-tag">How-To</span><h3><a href="/2026/06/synology-nas-introduction-dsm-setup/">What is Synology NAS? Introduction, DSM Overview &amp; Setup Guide</a></h3><p class="lg2-desc">A complete beginner&#8217;s introduction to Synology NAS and DiskStation Manager, from what it is to getting it running.</p><div class="lg2-meta">By Talha</div></article>
+    <article class="lg2-card"><span class="lg2-tag">Windows · Mobile</span><h3><a href="/2025/11/view-ip-address-device-windows-mac-phones/">How to Find Your IP Address on Windows, Mac, Android &amp; iPhone</a></h3><p class="lg2-desc">Locate your local and public IP on any device in a few clicks — with the exact menus for each platform.</p><div class="lg2-meta">By Talha</div></article>
+    <article class="lg2-card"><span class="lg2-tag">Windows · Mac</span><h3><a href="/2025/11/delete-uninstall-apps-windows-mac-iphone-android/">How to Uninstall Apps on Windows, Mac, iPhone &amp; Android</a></h3><p class="lg2-desc">The right way to fully remove apps on every major operating system, including leftover files.</p><div class="lg2-meta">By Talha</div></article>
+  </div>
+</section>
+
+<!-- TOPICS -->
+<section id="topics">
+  <div class="lg2-sechead">
+    <div class="lg2-t">
+      <span class="lg2-eyebrow">Explore</span>
+      <h2>Browse by topic</h2>
+      <p>Each area is a full, growing library of tested guides. Pick where you want to dig in.</p>
+    </div>
+  </div>
+  <div class="lg2-grid4">
+    <a class="lg2-topic" href="/category/linux/"><div class="lg2-ic"><svg viewBox="0 0 24 24"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg></div><h3>Linux</h3><p>The terminal, package managers, servers, and dev tools — hands-on and mostly Ubuntu.</p><span class="lg2-count">600+ tutorials</span></a>
+    <a class="lg2-topic" href="/category/windows/"><div class="lg2-ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1"></rect><rect x="13" y="3" width="8" height="8" rx="1"></rect><rect x="3" y="13" width="8" height="8" rx="1"></rect><rect x="13" y="13" width="8" height="8" rx="1"></rect></svg></div><h3>Windows</h3><p>Setup, settings, networking, and fixes for Windows 10 and 11.</p><span class="lg2-count">480+ tutorials</span></a>
+    <a class="lg2-topic" href="/tag/ubuntu/"><div class="lg2-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="3"></circle></svg></div><h3>Ubuntu</h3><p>Install-and-configure walkthroughs for the latest Ubuntu LTS releases.</p><span class="lg2-count">Setup &amp; commands</span></a>
+    <a class="lg2-topic" href="/category/wordpress/"><div class="lg2-ic"><svg viewBox="0 0 24 24"><path d="M12 20h9"></path><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg></div><h3>WordPress</h3><p>Plugins, themes, templates, and site tweaks for bloggers and admins.</p><span class="lg2-count">120+ tutorials</span></a>
+    <a class="lg2-topic" href="/category/how-to-and-tips/"><div class="lg2-ic"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2-2Z"></path></svg></div><h3>How-To / Tips</h3><p>Everyday quick fixes and productivity tips across devices and apps.</p><span class="lg2-count">900+ tutorials</span></a>
+    <a class="lg2-topic" href="/category/internet/"><div class="lg2-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><line x1="3" y1="12" x2="21" y2="12"></line><path d="M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z"></path></svg></div><h3>Internet</h3><p>Email, cloud tools, browsers, and getting more from online services.</p><span class="lg2-count">200+ tutorials</span></a>
+    <a class="lg2-topic" href="/category/web/"><div class="lg2-ic"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div><h3>Web</h3><p>Websites, hosting, browsers, online tools, and practical web tech.</p><span class="lg2-count">160+ tutorials</span></a>
+    <a class="lg2-topic" href="/category/security/"><div class="lg2-ic"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="10" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div><h3>Security</h3><p>Safer systems, accounts, networks, certificates, and basic protection.</p><span class="lg2-count">Stay protected</span></a>
+  </div>
+</section>
+
+<!-- LATEST -->
+<section>
+  <div class="lg2-sechead">
+    <div class="lg2-t">
+      <span class="lg2-eyebrow">Fresh</span>
+      <h2>Latest tutorials</h2>
+      <p>The newest hands-on guides from our contributors.</p>
+    </div>
+    <a class="lg2-viewall" href="/category/how-to-and-tips/">View all</a>
+  </div>
+  <div class="lg2-grid4">
+    <article class="lg2-card"><span class="lg2-tag">How-To</span><h3><a href="/2026/06/synology-dsm-email-notifications/">How to Set Up Email Notifications in DSM 7.4</a></h3><div class="lg2-meta">Talha · Jun 26, 2026</div></article>
+    <article class="lg2-card"><span class="lg2-tag">How-To</span><h3><a href="/2026/06/connect-synology-nas-windows-file-explorer/">Connect to Synology NAS with Windows File Explorer</a></h3><div class="lg2-meta">Talha · Jun 26, 2026</div></article>
+    <article class="lg2-card"><span class="lg2-tag">How-To</span><h3><a href="/2026/06/synology-dsm-widgets-resource-monitor/">Widgets and Resource Monitor in DSM 7.4</a></h3><div class="lg2-meta">Talha · Jun 26, 2026</div></article>
+    <article class="lg2-card"><span class="lg2-tag">How-To</span><h3><a href="/2026/06/synology-dsm-personal-settings/">User Profile &amp; Personal Settings in DSM 7.4</a></h3><div class="lg2-meta">Talha · Jun 26, 2026</div></article>
+    <article class="lg2-card"><span class="lg2-tag">How-To</span><h3><a href="/2026/06/synology-download-center-assistant/">Synology Download Center &amp; Synology Assistant</a></h3><div class="lg2-meta">Talha · Jun 26, 2026</div></article>
+    <article class="lg2-card"><span class="lg2-tag">How-To</span><h3><a href="/2026/06/synology-nas-login-shutdown/">How to Log In and Shut Down the Synology NAS</a></h3><div class="lg2-meta">Talha · Jun 26, 2026</div></article>
+    <article class="lg2-card"><span class="lg2-tag">Internet</span><h3><a href="/2025/11/mark-email-important-gmail-desktop-android/">Mark an Email as Important in Gmail</a></h3><div class="lg2-meta">Talha · Nov 8, 2025</div></article>
+    <article class="lg2-card"><span class="lg2-tag">Windows</span><h3><a href="/2025/11/delete-uninstall-apps-windows-mac-iphone-android/">Uninstall Apps on Windows, Mac, iPhone &amp; Android</a></h3><div class="lg2-meta">Talha · Nov 7, 2025</div></article>
+  </div>
+</section>
+
+<!-- FEATURED SERIES -->
+<section class="lg2-feature">
+  <div>
+    <span class="lg2-eyebrow">Featured guide series</span>
+    <h2>Synology NAS &amp; DSM 7.4 — from unboxing to daily use</h2>
+    <p style="color:var(--muted)">A complete, in-order walkthrough of setting up and running a Synology NAS on the latest DiskStation Manager: storage pools, the desktop, monitoring, sharing over Windows, and email alerts. Follow it top to bottom, or jump to the step you need.</p>
+    <a class="lg2-btn lg2-btn-dark" href="/2026/06/synology-nas-introduction-dsm-setup/">Start the series</a>
+  </div>
+  <ul class="lg2-serieslist">
+    <li><a href="/2026/06/synology-nas-introduction-dsm-setup/"><span class="n">1</span>What is Synology NAS? Introduction &amp; DSM Overview</a></li>
+    <li><a href="/2026/06/synology-storage-pool-volume-setup/"><span class="n">2</span>Initial Storage Pool &amp; Volume Configuration</a></li>
+    <li><a href="/2026/06/synology-dsm-desktop-first-look/"><span class="n">3</span>DSM 7.4 — First Look at the Desktop</a></li>
+    <li><a href="/2026/06/synology-dsm-widgets-resource-monitor/"><span class="n">4</span>Widgets &amp; Resource Monitor</a></li>
+    <li><a href="/2026/06/connect-synology-nas-windows-file-explorer/"><span class="n">5</span>Connect with Windows File Explorer</a></li>
+    <li><a href="/2026/06/synology-dsm-email-notifications/"><span class="n">6</span>Set Up Email Notifications</a></li>
+  </ul>
+</section>
+
+<!-- LINUX DEEP DIVE -->
+<section id="linux">
+  <div class="lg2-sechead">
+    <div class="lg2-ic"><svg viewBox="0 0 24 24"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg></div>
+    <div class="lg2-t"><span class="lg2-eyebrow">Topic</span><h2>Linux &amp; Ubuntu</h2><p>Install packages, configure servers, and master the command line — tested on current Ubuntu releases.</p></div>
+    <a class="lg2-viewall" href="/category/linux/">All Linux</a>
+  </div>
+  <div class="lg2-list">
+    <a href="/2024/04/install-firefox-on-ubuntu-24-04/">Install Firefox on Ubuntu 24.04: APT, Snap, Flatpak &amp; Deb<span class="lg2-d">APT · Snap · Flatpak · deb</span></a>
+    <a href="/2024/04/install-lampstack-on-ubuntu-24-04/">How to Install LAMP Stack on Ubuntu 24.04<span class="lg2-d">Apache, MySQL &amp; PHP</span></a>
+    <a href="/2024/04/install-kubectl-on-ubuntu-24-04/">Install kubectl on Ubuntu 24.04: APT, Snap &amp; curl<span class="lg2-d">Kubernetes CLI</span></a>
+    <a href="/2024/04/install-go-ubuntu-24-04/">Install Go on Ubuntu 24.04: APT, Snap, wget &amp; curl<span class="lg2-d">Golang toolchain</span></a>
+    <a href="/2024/04/install-conda-ubuntu-24-04/">How to Install Conda on Ubuntu 24.04<span class="lg2-d">Miniconda &amp; Anaconda</span></a>
+    <a href="/2024/04/install-aws-cli-ubuntu-24-04/">Install AWS CLI on Ubuntu 24.04: Zip &amp; Snap<span class="lg2-d">Cloud tooling</span></a>
+  </div>
+</section>
+
+<!-- WINDOWS DEEP DIVE -->
+<section id="windows">
+  <div class="lg2-sechead">
+    <div class="lg2-ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1"></rect><rect x="13" y="3" width="8" height="8" rx="1"></rect><rect x="3" y="13" width="8" height="8" rx="1"></rect><rect x="13" y="13" width="8" height="8" rx="1"></rect></svg></div>
+    <div class="lg2-t"><span class="lg2-eyebrow">Topic</span><h2>Windows</h2><p>Everyday fixes, network commands, and settings for Windows 10 and 11.</p></div>
+    <a class="lg2-viewall" href="/category/windows/">All Windows</a>
+  </div>
+  <div class="lg2-list">
+    <a href="/2025/11/delete-uninstall-apps-windows-mac-iphone-android/">How to Uninstall Apps on Windows, Mac, iPhone &amp; Android<span class="lg2-d">Cross-platform</span></a>
+    <a href="/2025/11/view-ip-address-device-windows-mac-phones/">Find Your IP Address on Windows, Mac, Android &amp; iPhone<span class="lg2-d">Local &amp; public IP</span></a>
+    <a href="/2024/03/how-to-use-ipconfig-command-on-windows/">ipconfig Command in Windows: Check &amp; Fix Network Settings<span class="lg2-d">/all · /release · /flushdns</span></a>
+    <a href="/2024/03/what-is-s-mode-in-windows-11/">What Is S Mode in Windows 11 and How to Turn It Off<span class="lg2-d">Windows 11</span></a>
+    <a href="/2024/03/convert-heic-jpg-windows/">Convert HEIC to JPG on Windows<span class="lg2-d">Image conversion</span></a>
+    <a href="/2023/11/how-to-use-the-print-screen-key-to-take-a-screenshot/">Use the Print Screen Key to Take a Screenshot<span class="lg2-d">Screenshots</span></a>
+  </div>
+</section>
+
+<!-- WORDPRESS DEEP DIVE -->
+<section id="wordpress">
+  <div class="lg2-sechead">
+    <div class="lg2-ic"><svg viewBox="0 0 24 24"><path d="M12 20h9"></path><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg></div>
+    <div class="lg2-t"><span class="lg2-eyebrow">Topic</span><h2>WordPress</h2><p>Plugins, themes, templates, and monetization tips for bloggers and site admins.</p></div>
+    <a class="lg2-viewall" href="/category/wordpress/">All WordPress</a>
+  </div>
+  <div class="lg2-list">
+    <a href="/2022/07/how-to-manually-insert-google-adsense-ads-in-wordpress/">How to Manually Insert Google AdSense Ads in WordPress<span class="lg2-d">Monetization</span></a>
+    <a href="/2017/03/top-5-wordpress-plugins-for-seo/">Top 5 WordPress Plugins for SEO<span class="lg2-d">SEO</span></a>
+    <a href="/2016/11/5-essential-wordpress-plugins/">5 Essential WordPress Plugins<span class="lg2-d">Must-haves</span></a>
+    <a href="/2016/10/how-to-create-a-custom-page-template-for-wordpress/">How to Create a Custom Page Template for WordPress<span class="lg2-d">Theming</span></a>
+    <a href="/2017/04/9-best-free-themes-for-bootstrap/">9 Best Free Themes for Bootstrap<span class="lg2-d">Themes</span></a>
+    <a href="/2016/04/how-to-install-lets-encrypt-certificates-on-ubuntu-server-with-apache2/">Install Let&#8217;s Encrypt Certificates (Apache2)<span class="lg2-d">HTTPS</span></a>
+  </div>
+</section>
+
+<!-- INTERNET & WEB DEEP DIVE -->
+<section id="webnet">
+  <div class="lg2-sechead">
+    <div class="lg2-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><line x1="3" y1="12" x2="21" y2="12"></line><path d="M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z"></path></svg></div>
+    <div class="lg2-t"><span class="lg2-eyebrow">Topic</span><h2>Internet &amp; Web</h2><p>Email, cloud tools, browsers, backups, and practical web-technology know-how.</p></div>
+    <a class="lg2-viewall" href="/category/internet/">All Internet</a>
+  </div>
+  <div class="lg2-list">
+    <a href="/2025/11/mark-email-important-gmail-desktop-android/">How to Mark an Email as Important in Gmail<span class="lg2-d">Gmail</span></a>
+    <a href="/2019/05/duplicati/">What Is Duplicati and Is It Worth My Time?<span class="lg2-d">Backups</span></a>
+    <a href="/2019/04/check-python-version/">How To Check Your Python Version<span class="lg2-d">Dev basics</span></a>
+    <a href="/2016/11/optimize-images-with-responsive-breakpoints-generator/">Optimize Images with Responsive Breakpoints<span class="lg2-d">Performance</span></a>
+    <a href="/2024/01/initialize-terraform-folder/">How to Initialize a Terraform Folder<span class="lg2-d">IaC</span></a>
+    <a href="/2019/11/grive/">Grive for Google Drive on Linux: What It Is<span class="lg2-d">Cloud sync</span></a>
+  </div>
+</section>
+
+<!-- SECURITY DEEP DIVE -->
+<section id="security">
+  <div class="lg2-sechead">
+    <div class="lg2-ic"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="10" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div>
+    <div class="lg2-t"><span class="lg2-eyebrow">Topic</span><h2>Security</h2><p>Firewalls, SSL/TLS certificates, and safer systems — the fundamentals, done right.</p></div>
+    <a class="lg2-viewall" href="/category/security/">All Security</a>
+  </div>
+  <div class="lg2-list">
+    <a href="/2019/04/csf-firewall/">Everything You Need to Know About CSF Firewall<span class="lg2-d">Firewall</span></a>
+    <a href="/2015/12/how-to-use-letsencrypt-ssl-with-nginx-on-ubuntu-server/">Use Let&#8217;s Encrypt SSL with Nginx on Ubuntu Server<span class="lg2-d">HTTPS · Nginx</span></a>
+    <a href="/2016/04/how-to-install-lets-encrypt-certificates-on-ubuntu-server-with-apache2/">Install Let&#8217;s Encrypt Certificates with Apache2<span class="lg2-d">HTTPS · Apache</span></a>
+    <a href="/2015/07/instructions-on-how-to-generate-a-certificate-signing-request-csr-on-linux-systems/">Generate a Certificate Signing Request (CSR) on Linux<span class="lg2-d">Certificates</span></a>
+    <a href="/2018/05/mac-os-x-truly-more-secure-than-windows/">Is macOS Truly More Secure than Windows?<span class="lg2-d">OS security</span></a>
+    <a href="/2018/10/is-electronic-cash-legit/">Is Electronic Cash Legit? What to Know<span class="lg2-d">Online safety</span></a>
+  </div>
+</section>
+
+<!-- AUTHORS -->
+<section>
+  <div class="lg2-sechead">
+    <div class="lg2-t">
+      <span class="lg2-eyebrow">The team</span>
+      <h2>Meet the authors</h2>
+      <p>Real people who write, test, and maintain our tutorials — so you always know who is guiding you.</p>
+    </div>
+  </div>
+  <div class="lg2-authors">
+    <div class="lg2-author"><div class="lg2-avatar">MS</div><div><h3>Michael Stolzer</h3><div class="role">Managing Editor &amp; Contributor</div><p>Manages and contributes to Liberian Geek, focusing on practical Linux, Ubuntu, Windows, WordPress, and web tutorials for everyday users and administrators.</p><a class="lg2-profile" href="/author/michael_stolzer/">View articles</a></div></div>
+    <div class="lg2-author"><div class="lg2-avatar">T</div><div><h3>Talha</h3><div class="role">Technology Writer</div><p>Writes technology tutorials covering practical how-to topics across web tools, software, devices, and productivity workflows.</p><a class="lg2-profile" href="/author/talha/">View articles</a></div></div>
+    <div class="lg2-author"><div class="lg2-avatar">AM</div><div><h3>Abdul Moeed</h3><div class="role">Technology Writer</div><p>Writes practical technology tutorials with a focus on clear step-by-step guidance for software, devices, and everyday troubleshooting.</p><a class="lg2-profile" href="/author/moeed/">View articles</a></div></div>
+    <div class="lg2-author"><div class="lg2-avatar">MS</div><div><h3>Matt Shine</h3><div class="role">Contributor</div><p>Contributes beginner-friendly technology guides, helping readers follow common Windows, web, and productivity workflows with less friction.</p><a class="lg2-profile" href="/author/mattshine/">View articles</a></div></div>
+    <div class="lg2-author"><div class="lg2-avatar">RW</div><div><h3>Richard W</h3><div class="role">Founding Team</div><p>Associated with the original Liberian Geek publishing team and the site&#8217;s long-running library of Linux, Windows, WordPress, and open source tutorials.</p><a class="lg2-profile" href="/author/liberiangeek/">View articles</a></div></div>
+    <div class="lg2-author" style="background:var(--soft);border-style:dashed"><div class="lg2-avatar" style="background:linear-gradient(135deg,#8a8a8a,#b0b0b0)"><svg viewBox="0 0 24 24"><path d="M12 20h9"></path><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg></div><div><h3>Write with us</h3><div class="role">Contributor guidelines</div><p>Know a topic inside out? See how our editorial process works and how to pitch a tutorial.</p><a class="lg2-profile" href="/editorial-policy/">Read our standards</a></div></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="lg2-faq">
+  <div class="lg2-sechead">
+    <div class="lg2-t"><span class="lg2-eyebrow">Good to know</span><h2>Frequently asked questions</h2><p>Quick answers about what we cover and how our tutorials are made.</p></div>
+  </div>
+  <details><summary>What kind of tutorials does Liberian Geek publish?</summary><div class="lg2-ans">Step-by-step how-to guides for Windows, Linux, Ubuntu, WordPress, and the web — covering installation, configuration, troubleshooting, and everyday tasks for both beginners and administrators.</div></details>
+  <details><summary>Are the guides suitable for beginners?</summary><div class="lg2-ans">Yes. Most tutorials are written to be followed step by step, with commands and settings spelled out, so you can finish a task even if the topic is new to you. More advanced server and command-line guides are available too.</div></details>
+  <details><summary>Which operating systems and versions do you cover?</summary><div class="lg2-ans">We focus on current Windows (10 and 11), popular Ubuntu LTS releases, and general Linux, plus cross-platform web and internet tools. Each guide states the exact version it was tested on.</div></details>
+  <details><summary>How do you keep tutorials accurate and up to date?</summary><div class="lg2-ans">Guides are tested against real systems and revised when software changes. Our <a href="/editorial-policy/">Editorial Policy</a> and <a href="/corrections-policy/">Corrections Policy</a> explain how we write, review, and fix content.</div></details>
+  <details><summary>Can I request a tutorial or report a mistake?</summary><div class="lg2-ans">Absolutely. Use the <a href="/contact/">contact page</a> to request a topic or flag something that&#8217;s out of date, and our team will take a look.</div></details>
+  <details><summary>Is the content free to read?</summary><div class="lg2-ans">Yes — every tutorial on Liberian Geek is free to read.</div></details>
+</section>
+
+<!-- TRUST -->
+<section class="lg2-trust">
+  <div>
+    <span class="lg2-eyebrow" style="color:#9fdcff">Why trust Liberian Geek</span>
+    <h2>Tested steps. Transparent editing. Honest corrections.</h2>
+    <p>Every guide is written to be followed, verified against real systems, and updated when things change. Our editorial and corrections policies are public — so you always know how the content is made.</p>
+  </div>
+  <div class="lg2-trustlinks">
+    <a href="/editorial-policy/">Editorial Policy</a>
+    <a href="/corrections-policy/">Corrections Policy</a>
+    <a href="/about/">About Us</a>
+    <a href="/contact/">Contact the Team</a>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="lg2-news">
+  <h2>Never miss a tutorial</h2>
+  <p>Get the newest Windows, Linux, and WordPress how-tos as they publish. Practical guides, no spam.</p>
+  <a class="lg2-btn lg2-btn-dark" href="/contact/">Get in touch</a>
+</section>
+
+</div>
+
+<script data-lg-homepage-cleanup="google-annotations">
+(function(){
+  function isHome(){return document.body && (document.body.classList.contains('home') || document.body.classList.contains('page-id-44084'));}
+  function unwrap(el){
+    var text = document.createTextNode(el.textContent || '');
+    el.replaceWith(text);
+  }
+  function clean(){
+    if(!isHome()) return;
+    document.querySelectorAll('a.google-anno').forEach(unwrap);
+    document.querySelectorAll('.google-anno-skip, .google-anno-sc, .google-anno-sa-qtx, #google-anno-sa, #google-anno-sa-glow, google-anno-sa').forEach(function(el){el.remove();});
+    document.querySelectorAll('.google-auto-placed, ins.adsbygoogle, [id^="aswift_"], iframe[id^="aswift_"], iframe[name^="aswift_"]').forEach(function(el){el.remove();});
+  }
+  clean();
+  document.addEventListener('DOMContentLoaded', clean);
+  window.addEventListener('load', clean);
+  var runs = 0;
+  var timer = window.setInterval(function(){ clean(); if(++runs > 30) window.clearInterval(timer); }, 500);
+  new MutationObserver(clean).observe(document.documentElement, {childList:true, subtree:true});
+})();
+</script>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ItemList",
+      "name": "Latest tutorials on Liberian Geek",
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "url": "https://liberiangeek.net/2026/06/synology-dsm-email-notifications/", "name": "How to Set Up Email Notifications in DSM 7.4 | Synology NAS" },
+        { "@type": "ListItem", "position": 2, "url": "https://liberiangeek.net/2026/06/connect-synology-nas-windows-file-explorer/", "name": "How to Connect to Synology NAS with Windows File Explorer" },
+        { "@type": "ListItem", "position": 3, "url": "https://liberiangeek.net/2026/06/synology-dsm-widgets-resource-monitor/", "name": "Widgets and Resource Monitor in DSM 7.4" },
+        { "@type": "ListItem", "position": 4, "url": "https://liberiangeek.net/2026/06/synology-dsm-personal-settings/", "name": "User Profile and Personal Settings in DSM 7.4" },
+        { "@type": "ListItem", "position": 5, "url": "https://liberiangeek.net/2026/06/synology-download-center-assistant/", "name": "Synology Download Center and Synology Assistant" },
+        { "@type": "ListItem", "position": 6, "url": "https://liberiangeek.net/2026/06/synology-nas-login-shutdown/", "name": "How to Log In and Shut Down the Synology NAS" },
+        { "@type": "ListItem", "position": 7, "url": "https://liberiangeek.net/2025/11/mark-email-important-gmail-desktop-android/", "name": "How to Mark an Email as Important in Gmail" },
+        { "@type": "ListItem", "position": 8, "url": "https://liberiangeek.net/2025/11/delete-uninstall-apps-windows-mac-iphone-android/", "name": "How to Uninstall Apps on Windows, Mac, iPhone, and Android" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What kind of tutorials does Liberian Geek publish?", "acceptedAnswer": { "@type": "Answer", "text": "Step-by-step how-to guides for Windows, Linux, Ubuntu, WordPress, and the web, covering installation, configuration, troubleshooting, and everyday tasks for both beginners and administrators." } },
+        { "@type": "Question", "name": "Are the guides suitable for beginners?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Most tutorials are written to be followed step by step, with commands and settings spelled out, so you can finish a task even if the topic is new to you. More advanced server and command-line guides are available too." } },
+        { "@type": "Question", "name": "Which operating systems and versions do you cover?", "acceptedAnswer": { "@type": "Answer", "text": "We focus on current Windows (10 and 11), popular Ubuntu LTS releases, and general Linux, plus cross-platform web and internet tools. Each guide states the exact version it was tested on." } },
+        { "@type": "Question", "name": "How do you keep tutorials accurate and up to date?", "acceptedAnswer": { "@type": "Answer", "text": "Guides are tested against real systems and revised when software changes. Our Editorial Policy and Corrections Policy explain how we write, review, and fix content." } },
+        { "@type": "Question", "name": "Can I request a tutorial or report a mistake?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Use the contact page to request a topic or flag something that is out of date, and our team will take a look." } },
+        { "@type": "Question", "name": "Is the content free to read?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, every tutorial on Liberian Geek is free to read." } }
+      ]
+    }
+  ]
+}
+</script>
+					</div>
+
+				
+				</article>
+
+			
+
+			</div>
+
+					</div>
+	</div>
+
+
+</div>
+
+
+			<footer data-wpr-lazyrender="1" id="main-footer">
+				
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+		<div class="footer-widget"><div id="nav_menu-2" class="fwidget et_pb_widget widget_nav_menu"><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-33210" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-33210"><a href="https://liberiangeek.net/" aria-current="page">Home</a></li>
+<li id="menu-item-33209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33209"><a href="https://liberiangeek.net/about/">About Us</a></li>
+<li id="menu-item-33208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33208"><a href="https://liberiangeek.net/privacy-policy/">Privacy</a></li>
+<li id="menu-item-33207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33207"><a href="https://liberiangeek.net/contact/">Contact</a></li>
+<li id="menu-item-43403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43403"><a href="https://liberiangeek.net/glossary/">Glossary</a></li>
+<li id="menu-item-43404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43404"><a href="https://liberiangeek.net/editorial-policy/">Editorial Policy</a></li>
+<li id="menu-item-43405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43405"><a href="https://liberiangeek.net/corrections-policy/">Corrections Policy</a></li>
+</ul></div></div></div><div class="footer-widget"></div><div class="footer-widget"></div><div class="footer-widget"></div>	</div>
+</div>
+
+
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<ul class="et-social-icons">
+
+	<li class="et-social-icon et-social-facebook">
+		<a href="#" class="icon">
+			<span>Facebook</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-twitter">
+		<a href="#" class="icon">
+			<span>X</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-instagram">
+		<a href="#" class="icon">
+			<span>Instagram</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-rss">
+		<a href="https://liberiangeek.net/feed/" class="icon">
+			<span>RSS</span>
+		</a>
+	</li>
+
+</ul><p id="footer-info">Designed by <a href="https://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a> | Powered by <a href="https://www.wordpress.org">WordPress</a></p>					</div>
+				</div>
+			</footer>
+		</div>
+
+
+	</div>
+
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>window.addEventListener('DOMContentLoaded', function() {( $ => {
+	/**
+	 * Displays toast message from storage, it is used when the user is redirected after login
+	 */
+	if ( window.sessionStorage ) {
+		$( window ).on( 'tcb_after_dom_ready', () => {
+			const message = sessionStorage.getItem( 'tcb_toast_message' );
+
+			if ( message ) {
+				tcbToast( sessionStorage.getItem( 'tcb_toast_message' ), false );
+				sessionStorage.removeItem( 'tcb_toast_message' );
+			}
+		} );
+	}
+
+	/**
+	 * Displays toast message
+	 *
+	 * @param {string}   message  - message to display
+	 * @param {Boolean}  error    - whether the message is an error or not
+	 * @param {Function} callback - callback function to be called after the message is closed
+	 */
+	function tcbToast( message, error, callback ) {
+		/* Also allow "message" objects */
+		if ( typeof message !== 'string' ) {
+			message = message.message || message.error || message.success;
+		}
+		if ( ! error ) {
+			error = false;
+		}
+		TCB_Front.notificationElement.toggle( message, error ? 'error' : 'success', callback );
+	}
+} )( typeof ThriveGlobal === 'undefined' ? jQuery : ThriveGlobal.$j );
+});</script><style type="text/css" media="screen"></style><script type="application/ld+json" id="slim-seo-schema">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://liberiangeek.net/#website","url":"https://liberiangeek.net/","name":"Liberian Geek","description":"Practical, tested Windows, Linux, Ubuntu, WordPress, web, and security tutorials for everyday users and administrators.","inLanguage":"en-US","potentialAction":{"@id":"https://liberiangeek.net/#searchaction"},"publisher":{"@id":"https://liberiangeek.net/#organization"}},{"@type":"SearchAction","@id":"https://liberiangeek.net/#searchaction","target":"https://liberiangeek.net/?s={search_term_string}","query-input":"required name=search_term_string"},{"@type":"WebPage","@id":"https://liberiangeek.net/#webpage","url":"https://liberiangeek.net/","inLanguage":"en-US","name":"Practical Windows, Linux, Ubuntu & WordPress Tutorials | Liberian Geek","description":"Liberian Geek publishes practical, tested Windows, Linux, Ubuntu, WordPress, web, and security tutorials for everyday users and administrators.","datePublished":"2026-07-14T04:00:44-05:00","dateModified":"2026-09-16T13:19:52-05:00","isPartOf":{"@id":"https://liberiangeek.net/#website"},"potentialAction":{"@id":"https://liberiangeek.net/#readaction"},"about":{"@id":"https://liberiangeek.net/#organization"}},{"@type":"ReadAction","@id":"https://liberiangeek.net/#readaction","target":"https://liberiangeek.net/"},{"@type":"Organization","@id":"https://liberiangeek.net/#organization","url":"https://liberiangeek.net/","name":"Liberian Geek"}]}</script><style type="text/css" id="tve_notification_styles"></style>
+<div  class="tvd-toast tve-fe-message" style="display: none">
+	<div  class="tve-toast-message tve-success-message">
+		<div  class="tve-toast-icon-container">
+			<span class="tve_tick thrv-svg-icon"></span>
+		</div>
+		<div  class="tve-toast-message-container"></div>
+	</div>
+</div><script type="rocketlazyloadscript" data-rocket-type="text/javascript">var tcb_current_post_lists=JSON.parse('[]'); var tcb_post_lists=tcb_post_lists?[...tcb_post_lists,...tcb_current_post_lists]:tcb_current_post_lists;</script><script type="rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://liberiangeek.net","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="divi-custom-script-js-extra">
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https://liberiangeek.net/wp-admin/admin-ajax.php","images_uri":"https://liberiangeek.net/wp-content/themes/Divi/images","builder_images_uri":"https://liberiangeek.net/wp-content/themes/Divi/includes/builder/images","et_frontend_nonce":"00e1f4a8c7","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"b07feabe79","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"44084","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":"https://liberiangeek.net/wp-content/themes/Divi/includes/builder/frontend-builder/assets/vendors","accent_color":"#2ea3f2","waypoints_options":[]};
+var et_pb_box_shadow_elements = [];
+//# sourceURL=divi-custom-script-js-extra
+</script>
+<script type="rocketlazyloadscript" id="divi-custom-script-js" data-rocket-src="https://liberiangeek.net/wp-content/themes/Divi/js/scripts.min.js?ver=4.27.4" data-rocket-defer defer></script>
+<script id="tve-dash-frontend-js-extra">
+var tve_dash_front = {"ajaxurl":"https://liberiangeek.net/wp-admin/admin-ajax.php","force_ajax_send":"1","is_crawler":"","recaptcha":[],"turnstile":[],"post_id":"44084"};
+//# sourceURL=tve-dash-frontend-js-extra
+</script>
+<script type="rocketlazyloadscript" id="tve-dash-frontend-js" data-rocket-src="https://liberiangeek.net/wp-content/plugins/thrive-visual-editor/thrive-dashboard/js/dist/frontend.min.js?ver=11.0.0.1" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" id="et-core-common-js" data-rocket-src="https://liberiangeek.net/wp-content/cache/min/1/wp-content/themes/Divi/core/admin/js/common.js?ver=1783533271" data-rocket-defer defer></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://liberiangeek.net/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1790142795 -->
