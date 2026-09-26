@@ -1,6 +1,7 @@
 ---
 title: "Babalar ve Oğullar"
-date: 2013-03-16
+description: "Babalar ve Oğullar blog yazısı"
+pubDate: 2013-03-16
 ---
 
 <div style="text-align: justify;">
