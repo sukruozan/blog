@@ -15,7 +15,7 @@ Yine de benim için bu İstanbul gezisinin daha güzel tarafı yıllar sonra (6 
   
 Konserden sonraki sabah İstiklal caddesindeki iğrenç otelimizden sabahın köründe kaçarcasına ayrıldık. Atladık tramvaya doğru Tünel.  
   
-![Tramvay](.images/mod-DSC00907.jpg)
+![Tramvay](./images/mod-DSC00907.jpg)
 
 ![Tramvay 2](./images/mod-DSC00900.jpg)
   
