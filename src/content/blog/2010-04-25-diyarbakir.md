@@ -2,7 +2,7 @@
 title: "Diyarbakır"
 description: "Diyarbakır blog yazısı"
 pubDate: 2010-04-25
-heroImage: "./images/DSC_0213.JPG"
+heroImage: "./images/DSC_0204.JPG"
 ---
 
 SIU 2010 sinyal işleme kurultayı bu yıl Diyarbakır Dicle Üniversitesinde düzenlendi. Ben de gitmek için kolları sıvadım ve çalıştığım konularla ilgili bir bildiri gönderdim ve ne mutlu ki kabul edildi ve Diyarbakır'ı görmüş oldum bu vesile ile.  
