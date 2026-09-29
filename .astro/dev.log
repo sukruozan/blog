@@ -591,3 +591,6 @@
 {"message":"Reloaded data from 2011-07-28-temmuz-2011-istanbul.md","label":"glob-loader","level":"info"}
 {"message":"Reloaded data from 2011-07-28-temmuz-2011-istanbul.md","label":"glob-loader","level":"info"}
 {"message":"Reloaded data from 2011-07-28-temmuz-2011-istanbul.md","label":"glob-loader","level":"info"}
+{"message":"/src/layouts/BlogPost.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/pages/index.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
+{"message":"/src/pages/index.astro?astro&type=style&index=0&lang.css","label":"watch","level":"info"}
